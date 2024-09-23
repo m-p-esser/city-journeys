@@ -1,0 +1,89 @@
+/* Colors */
+:root {
+    --primary-color: rgba(79, 93, 117, 1);
+    --secondary-color: rgba(191, 192, 192, 1);
+    --highlight-color: rgba(232, 98, 82, 1);
+}
+
+/* Header */
+.navbar {
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    padding: 20px
+}
+
+.navbar-link>ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    gap: 20px;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.filter-menu {
+    background-color: var(--secondary-color)
+}
+
+.filter-button {
+    font-size: 32px;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: var(--highlight-color)
+}
+
+.city-overview {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.city-card {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.city-card-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    text-shadow: 2px 2px 2px black;
+}
+
+/* .city-card-country-flag {
+    position: absolute;
+    width: 30px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.city-card-image {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: block;
+}
+
+/* Footer */
+.footer {
+    background-color: aquamarine;
+    display: flex;
+    padding: 20px;
+    justify-content: stretch;
+}
