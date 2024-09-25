@@ -43,13 +43,26 @@
                             <input type="checkbox" class="checkbox-input" />
                             <span class="checkbox-tile">
                                 <span class="checkbox-icon">
-                                    <img src="./images/filter_icons/european-union.svg" width="100" height="auto">
+                                    <img src="./images/filter_icons/european-union.svg" width="40" height="auto">
                                 </span>
                                 <span class="checkbox-label">Europe</span>
                             </span>
                         </label>
                     </div>
+                    <div class="checkbox">
+                        <label class="checkbox-wrapper">
+                            <input type="checkbox" class="checkbox-input" />
+                            <span class="checkbox-tile">
+                                <span class="checkbox-icon">
+                                    <img src="./images/filter_icons/south-america.svg" width="40" height="auto">
+                                </span>
+                                <span class="checkbox-label">South America</span>
+                            </span>
+                        </label>
+                    </div>
                 </fieldset>
+
+                <button class="btn-submit">Apply</button>
 
             </div>
 
